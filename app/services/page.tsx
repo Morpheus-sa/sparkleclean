@@ -68,13 +68,13 @@ export default function Services() {
         <div className="bg-white p-6 rounded-lg shadow-md">
           <Image
             src="/images/green-cleaning.png"
-            alt="Green Cleaning"
+            alt="Deep Cleaning"
             width={400}
             height={200}
             className="w-full mb-4 rounded"
           />
           <h2 className="text-2xl font-semibold mb-2 text-blue-600">
-            Green Cleaning
+            Deep Cleaning
           </h2>
           <ul className="list-disc list-inside text-blue-900">
             <li>Eco-friendly products</li>

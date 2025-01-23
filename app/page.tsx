@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import ServicesSlider from "./components/service-slider";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
       </div>
 
       <div className="container mx-auto px-6 py-12">
-        <section className="grid md:grid-cols-3 gap-8 mb-12">
+        {/*<section className="grid md:grid-cols-3 gap-8 mb-12">
           <div className="text-center bg-white p-6 rounded-lg shadow-md">
             <Image
               src="/images/residential-cleaning.jpg"
@@ -42,6 +43,7 @@ export default function Home() {
             <p>
               Keep your home spotless with our professional cleaning services.
             </p>
+            <p className="text-2xl mb-2 text-blue-700">R500-R2000</p>
           </div>
           <div className="text-center bg-white p-6 rounded-lg shadow-md">
             <Image
@@ -57,6 +59,7 @@ export default function Home() {
             <p>
               Maintain a clean and professional environment for your business.
             </p>
+            <p className="text-2xl mb-2 text-blue-700">R2000-R10 000</p>
           </div>
           <div className="text-center bg-white p-6 rounded-lg shadow-md">
             <Image
@@ -73,9 +76,10 @@ export default function Home() {
               From deep cleaning to move-in/move-out services, we've got you
               covered.
             </p>
+            <p className="text-2xl mb-2 text-blue-700">R500-R2000</p>
           </div>
-        </section>
-
+        </section>*/}
+<ServicesSlider></ServicesSlider>
         <section className="text-center bg-white p-8 rounded-lg shadow-md">
           <h2 className="text-3xl font-bold mb-4 text-blue-700">
             Why Choose SparkleClean?
